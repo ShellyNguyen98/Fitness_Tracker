@@ -1,6 +1,4 @@
-const mongoose = require ("mongoose")
-
-const Schema = mongoose.Schema
+const { model, Schema } = require('mongoose')
 
 const Workout = new Schema ({
     day: {
@@ -37,7 +35,7 @@ const Workout = new Schema ({
                 type: Number,
                 required: false
             }
-        }, , { timestamps: true }
+        }, { timestamps: true }
     ]
 })
 

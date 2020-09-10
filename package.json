@@ -15,5 +15,15 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.4",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShellyNguyen98/Fitness_Tracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ShellyNguyen98/Fitness_Tracker/issues"
+  },
+  "homepage": "https://github.com/ShellyNguyen98/Fitness_Tracker#readme"
 }
