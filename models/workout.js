@@ -5,7 +5,8 @@ const Workout = new Schema ({
         type: Date,
         default: Date.now
     },
-    exercise: [
+
+    exercises: [
         {
             type: {
                 type: String,
@@ -35,8 +36,7 @@ const Workout = new Schema ({
                 type: Number,
                 required: false
             }
-        }, { timestamps: true }
-    ]
-})
+        }]
+    }, { timestamps: true})
 
 module.exports = model ('Workout', Workout)
